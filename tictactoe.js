@@ -12,7 +12,7 @@ const tieSound = new Audio("tie.mp3");
 const errorSound = new Audio("error.mp3");
 const gameStartSound = new Audio("game-start.mp3");
 const backgroundMusic = new Audio("background-music.mp3");
-const buttonClickSound = new Audio("button-click.mp3");
+const buttonClickSound = new Audio("buttonClickSound.mp3");
 backgroundMusic.volume = 0.1;
 
 function initializeGame() {
@@ -79,7 +79,7 @@ function makeMove(index) {
         setTimeout(computerMove, 1000); // Add delay before computer makes a move (1000 ms = 1 second)
       }
     }
-  }, moveSound.duration * 1000);  // Wait for the sound to finish before proceeding
+  }, moveSound.duration * 100);  // Wait for the sound to finish before proceeding
 }
 
 function computerMove() {
