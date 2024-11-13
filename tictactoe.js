@@ -6,13 +6,13 @@ let gameActive = false;
 let gameMode = "";
 
 // Sounds
-const moveSound = new Audio("sounds/move.mp3");
-const winSound = new Audio("sounds/win.mp3");
-const tieSound = new Audio("sounds/tie.mp3");
-const errorSound = new Audio("sounds/error.mp3");
-const gameStartSound = new Audio("sounds/game-start.mp3");
-const backgroundMusic = new Audio("sounds/background-music.mp3");
-const buttonClickSound = new Audio("sounds/button-click.mp3");
+const moveSound = new Audio("move.mp3");
+const winSound = new Audio("win.mp3");
+const tieSound = new Audio("tie.mp3");
+const errorSound = new Audio("error.mp3");
+const gameStartSound = new Audio("game-start.mp3");
+const backgroundMusic = new Audio("background-music.mp3");
+const buttonClickSound = new Audio("button-click.mp3");
 backgroundMusic.volume = 0.1;
 
 function initializeGame() {
